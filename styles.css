@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 600px;
+}
+#post {
+  width: 60%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+#header > i {
+  font-size: 28px;
+}
+
+#title {
+  flex-grow: 1;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+#image > img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+#icons-group {
+  display: flex;
+  padding: 0.4rem;
+  font-size: 20px;
+}
+
+#icons-action {
+  flex-grow: 1;
+}
+
+#post-body > p {
+  padding: 0.4rem;
+  text-align: justify;
+}
